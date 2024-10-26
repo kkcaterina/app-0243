@@ -1,0 +1,21 @@
+.name {
+  font-size: 2rem;
+  color: cadetblue;
+}
+
+.name span {
+  font-style: italic;
+  padding-top: 1rem;
+  padding-bottom: 1 px solid red;
+}
+
+.id {
+  font-size: 1.8rem;
+  color: red;
+  margin-bottom: 1rem;
+}
+
+.img {
+  max-width: 100%;
+  height: auto;
+}

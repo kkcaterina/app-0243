@@ -5,7 +5,7 @@ import { Friends } from "./components/Friends";
 import { Shop } from "./components/Shop";
 import { Settings } from "./components/Settings";
 
-function App() {
+function App(props) {
   return (
     <div className="container-fluid pl-5 pr-5 mt-5">
       <div className="row">
@@ -31,7 +31,7 @@ function App() {
         <div className="col-sm-8">
           <Routes>
             <Route path="/" element={<h2>Главная страница, выберите из меню слева</h2>}/>
-            <Route path="/profile" element={<Profile />}/>
+            <Route path="/profile" element={<Profile function={props.function}/>}/>
             <Route path="/friends" element={<Friends />}/>
             <Route path="/shop" element={<Shop />}/>
             <Route path="/settings" element={<Settings />}/>
