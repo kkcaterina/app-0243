@@ -8,11 +8,11 @@ const user = {
 };
 
 const users = {
-  0: { name: "Валерия", lastanme: "Смирнова" },
-  1: { name: "Павел", lastanme: "Николаев" },
-  2: { name: "Владислав", lastanme: "Тетерин" },
-  3: { name: "Юлия", lastanme: "Петрова" },
-  4: { name: "Ксения", lastanme: "Иванова" },
+  0: { name: "Валерия", lastname: "Смирнова" },
+  1: { name: "Павел", lastname: "Николаев" },
+  2: { name: "Владислав", lastname: "Тетерин" },
+  3: { name: "Юлия", lastname: "Петрова" },
+  4: { name: "Ксения", lastname: "Иванова" },
 };
 
 export function getUser() {
